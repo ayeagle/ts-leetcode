@@ -50,8 +50,6 @@ function findBuildings({heights}:{heights: number[]}): number[] {
         if(heights[i] > currMax){
             goodBuildings.push(i)
             currMax = heights[i]
-
-            
         }
 
     }
